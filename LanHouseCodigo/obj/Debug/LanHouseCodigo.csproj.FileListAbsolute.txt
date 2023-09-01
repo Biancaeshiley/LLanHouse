@@ -1,0 +1,13 @@
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\bin\Debug\LanHouseCodigo.exe.config
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\bin\Debug\LanHouseCodigo.exe
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\bin\Debug\LanHouseCodigo.pdb
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.csproj.AssemblyReference.cache
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.csproj.SuggestedBindingRedirects.cache
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.Form1.resources
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.Properties.Resources.resources
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.Telas.TelaCliente.resources
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.csproj.GenerateResource.cache
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.csproj.CoreCompileInputs.cache
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.exe
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.pdb
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.Telas.TelaFuncionario.resources
