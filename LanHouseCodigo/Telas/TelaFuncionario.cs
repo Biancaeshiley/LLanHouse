@@ -55,6 +55,11 @@ namespace LanHouseCodigo.Telas
                 ValidacaoCPF.ValidaCPF(CF.CpfF);
                 MessageBox.Show(ValidacaoCPF.ValidaCPF(CF.CpfF).ToString());
 
+                if(ValidacaoCPF.ValidaCPF(CF.CpfF) == true)
+                {
+                    MessageBox.Show("CPf válido");
+                }
+
                 var file = File.AppendText("CadastroFuncionarioLanHouse.docx");
                 file.WriteLine(tx_nomeF.Text + "|" + tx_NumBF.Text + "|" + tx_endF.Text + "|" + tx_emailF +
                                "|" + tx_cpfF.Text + "|" + tx_teleF.Text + "|" + tx_dtNasF.Text);
