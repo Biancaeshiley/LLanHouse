@@ -43,7 +43,7 @@ namespace LanHouseCodigo.Telas
                 {
                     MessageBox.Show("Este pc ja esta ocupado!");
                 }
-                else if (numeroComputador > 15)
+                else if (numeroComputador > 12)
                 {
                     MessageBox.Show("Numero de pc invalido!");
                 }
@@ -94,6 +94,11 @@ namespace LanHouseCodigo.Telas
         private void label7_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

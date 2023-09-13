@@ -167,5 +167,11 @@
   <ItemGroup>
     <None Include="Resources\Documento A4 Branco e Lilás.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ad8fd61c365b622e02983f20c0aed67.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMAGEMM_resized.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,16 @@ namespace LanHouseCodigo.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5ad8fd61c365b622e02983f20c0aed67 {
+            get {
+                object obj = ResourceManager.GetObject("5ad8fd61c365b622e02983f20c0aed67", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Documento_A4_Branco_e_Lilás {
             get {
                 object obj = ResourceManager.GetObject("Documento A4 Branco e Lilás", resourceCulture);
@@ -116,6 +126,16 @@ namespace LanHouseCodigo.Properties {
         internal static System.Drawing.Bitmap imagem_Lanhouse_resized__1_ {
             get {
                 object obj = ResourceManager.GetObject("imagem_Lanhouse_resized (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMAGEMM_resized {
+            get {
+                object obj = ResourceManager.GetObject("IMAGEMM_resized", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

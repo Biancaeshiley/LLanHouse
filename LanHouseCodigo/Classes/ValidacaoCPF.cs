@@ -62,11 +62,8 @@ namespace LanHouseCodigo.Classes
             { 
                 return true;
             }
-
-            else 
-            { 
                 return false; 
-            }
+            
         }
     }
 }

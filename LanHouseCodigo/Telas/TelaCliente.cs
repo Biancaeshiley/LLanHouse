@@ -18,6 +18,7 @@ namespace LanHouseCodigo.Telas
         public TelaCliente()
         {
             InitializeComponent();
+            CarregarArquivosCliente();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,6 +53,37 @@ namespace LanHouseCodigo.Telas
 
         }
 
+        private void CarregarArquivosCliente()
+        {
+            // Certifique-se de que o arquivo existe
+            if (File.Exists("CadastroFuncionarioLanHouse.docx"))
+            {
+                // Limpa o DataGridView
+                DgvC.Rows.Clear();
+
+                // Lê todas as linhas do arquivo
+                string[] linhas = File.ReadAllLines("CadastroFuncionarioLanHouse.docx");
+
+                foreach (string linha in linhas)
+                {
+                    // Divide a linha em partes usando o caractere '|'
+                    string[] partes = linha.Split('|');
+
+                    // Verifique se há dados suficientes
+                    if (partes.Length == 7)
+                    {
+                        // Adicione os dados ao DataGridView
+                        DgvC.Rows.Add(partes[0], partes[3], partes[2], partes[5], partes[4], partes[6], partes[1]);
+                    }
+                }
+            }
+            else
+            {
+                // Lida com o caso em que o arquivo não existe (opcional)
+                MessageBox.Show("O arquivo CadastroFuncionarioLanHouse.docx não foi encontrado.");
+            }
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             tx_nomeC.Clear();
@@ -68,6 +100,11 @@ namespace LanHouseCodigo.Telas
         private void DgvC_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

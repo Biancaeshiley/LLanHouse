@@ -36,16 +36,16 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.DgvC = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tx_nomeC = new System.Windows.Forms.TextBox();
             this.tx_emailC = new System.Windows.Forms.TextBox();
             this.tx_dtNasC = new System.Windows.Forms.MaskedTextBox();
             this.tx_teleC = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DgvC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -85,11 +85,11 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 19);
+            this.label4.Location = new System.Drawing.Point(12, 19);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 16);
+            this.label4.Size = new System.Drawing.Size(165, 16);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Voltar";
+            this.label4.Text = "(Voltar para tela inical)";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
@@ -142,6 +142,34 @@
             this.DgvC.TabIndex = 11;
             this.DgvC.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvC_CellContentClick);
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Nome";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Email
+            // 
+            this.Email.HeaderText = "Email";
+            this.Email.MinimumWidth = 6;
+            this.Email.Name = "Email";
+            this.Email.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Telefone";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Data nascimento";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
+            // 
             // tx_nomeC
             // 
             this.tx_nomeC.Location = new System.Drawing.Point(952, 117);
@@ -192,40 +220,12 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Nome";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Email
-            // 
-            this.Email.HeaderText = "Email";
-            this.Email.MinimumWidth = 6;
-            this.Email.Name = "Email";
-            this.Email.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Telefone";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Data nascimento";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
             // TelaCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1284, 389);
+            this.ClientSize = new System.Drawing.Size(1284, 412);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tx_teleC);
             this.Controls.Add(this.tx_dtNasC);

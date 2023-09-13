@@ -124,6 +124,9 @@
   <data name="pc 15 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pc 15 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="5ad8fd61c365b622e02983f20c0aed67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5ad8fd61c365b622e02983f20c0aed67.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagem_Lanhouse_resized (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imagem_Lanhouse_resized (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,14 +136,17 @@
   <data name="iamgem usuario_resized_resized_resized" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iamgem usuario_resized_resized_resized.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Documento A4 Branco e Lilás_resized" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Documento A4 Branco e Lilás_resized.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pc 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pc 15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pc 15 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pc 15 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Documento A4 Branco e Lilás_resized" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Documento A4 Branco e Lilás_resized.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Documento A4 Branco e Lilás" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Documento A4 Branco e Lilás.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pc 15 (1)_resized" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pc 15 (1)_resized.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +154,7 @@
   <data name="Documento A4 Branco e Lilás_resized1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Documento A4 Branco e Lilás_resized1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Documento A4 Branco e Lilás" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Documento A4 Branco e Lilás.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMAGEMM_resized" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMAGEMM_resized.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

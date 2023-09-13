@@ -11,8 +11,7 @@ namespace LanHouseCodigo.Classes
         public string nomeC { get; set; }
         public string emailC { get; set; }
         public string teleC { get; set; }
-        public DateTime datNasC { get; set; }
-       
+        public DateTime datNasC { get; set; }       
         public CadastroCliente()
         {
 
