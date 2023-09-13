@@ -46,7 +46,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.DgvF = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,6 +53,7 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DgvF)).BeginInit();
             this.SuspendLayout();
             // 
@@ -176,6 +176,7 @@
             this.tx_cpfF.Name = "tx_cpfF";
             this.tx_cpfF.Size = new System.Drawing.Size(121, 22);
             this.tx_cpfF.TabIndex = 12;
+            this.tx_cpfF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.tx_cpfF_MaskInputRejected);
             // 
             // tx_dtNasF
             // 
@@ -189,7 +190,7 @@
             // tx_teleF
             // 
             this.tx_teleF.Location = new System.Drawing.Point(864, 220);
-            this.tx_teleF.Mask = "(999) 000-0000";
+            this.tx_teleF.Mask = "000-0000";
             this.tx_teleF.Name = "tx_teleF";
             this.tx_teleF.Size = new System.Drawing.Size(121, 22);
             this.tx_teleF.TabIndex = 14;
@@ -233,16 +234,7 @@
             this.DgvF.RowTemplate.Height = 24;
             this.DgvF.Size = new System.Drawing.Size(575, 386);
             this.DgvF.TabIndex = 17;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(788, 32);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(364, 33);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Cadastrar Funcionário";
+            this.DgvF.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvF_CellContentClick);
             // 
             // Column1
             // 
@@ -293,6 +285,16 @@
             this.Column7.Name = "Column7";
             this.Column7.Width = 125;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(788, 32);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(364, 33);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Cadastrar Funcionário";
+            // 
             // TelaFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -319,6 +321,7 @@
             this.Controls.Add(this.label1);
             this.Name = "TelaFuncionario";
             this.Text = "TelaFuncionario";
+            this.Load += new System.EventHandler(this.TelaFuncionario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvF)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

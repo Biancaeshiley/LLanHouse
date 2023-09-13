@@ -11,3 +11,5 @@ C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodi
 C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.exe
 C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.pdb
 C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.Telas.TelaFuncionario.resources
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.Telas.Computadores.resources
+C:\Users\bianc\source\repos\LanHouseCodigo\LanHouseCodigo\obj\Debug\LanHouseCodigo.csproj.ResolveComReference.cache

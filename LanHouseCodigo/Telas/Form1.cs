@@ -30,5 +30,17 @@ namespace LanHouseCodigo
            TelaFuncionario TF = new TelaFuncionario();
             TF.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Computadores c = new Computadores();
+            c.ShowDialog(); 
+
+        }
     }
 }

@@ -46,9 +46,7 @@ namespace LanHouseCodigo.Telas
 
                 funcionario.Add(CF);
 
-                DgvF.DataSource = null;
-                DgvF.Refresh();
-                DgvF.DataSource = funcionario;
+                DgvF.Rows.Add(CF.nomeF, CF.emalF, CF.endF, CF.teleF, CF.CpfF, CF.dtNasF, CF.numBF);
 
                 MessageBox.Show("Cadastro feito com sucesso!!!");
 
@@ -60,10 +58,14 @@ namespace LanHouseCodigo.Telas
                     MessageBox.Show("CPf válido");
                 }
 
+               
+
                 var file = File.AppendText("CadastroFuncionarioLanHouse.docx");
-                file.WriteLine(tx_nomeF.Text + "|" + tx_NumBF.Text + "|" + tx_endF.Text + "|" + tx_emailF +
+                file.WriteLine(tx_nomeF.Text + "|" + tx_NumBF.Text + "|" + tx_endF.Text + "|" + tx_emailF.Text +
                                "|" + tx_cpfF.Text + "|" + tx_teleF.Text + "|" + tx_dtNasF.Text);
                 file.Close();
+
+               
             }
             catch (FormatException ex)
             {
@@ -105,6 +107,21 @@ namespace LanHouseCodigo.Telas
         private void label10_Click(object sender, EventArgs e)
         {
           
+        }
+
+        private void DgvF_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void TelaFuncionario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_cpfF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

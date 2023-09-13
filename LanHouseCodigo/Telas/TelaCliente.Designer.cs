@@ -44,7 +44,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DgvC)).BeginInit();
@@ -133,15 +132,15 @@
             this.DgvC.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Email,
-            this.Column2,
             this.Column3,
             this.Column4});
             this.DgvC.Location = new System.Drawing.Point(12, 47);
             this.DgvC.Name = "DgvC";
             this.DgvC.RowHeadersWidth = 51;
             this.DgvC.RowTemplate.Height = 24;
-            this.DgvC.Size = new System.Drawing.Size(670, 314);
+            this.DgvC.Size = new System.Drawing.Size(551, 314);
             this.DgvC.TabIndex = 11;
+            this.DgvC.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvC_CellContentClick);
             // 
             // tx_nomeC
             // 
@@ -180,9 +179,9 @@
             this.label6.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(856, 47);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(270, 33);
+            this.label6.Size = new System.Drawing.Size(290, 33);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Cadastra Cliente";
+            this.label6.Text = "Cadastrar Cliente";
             // 
             // pictureBox1
             // 
@@ -206,13 +205,6 @@
             this.Email.MinimumWidth = 6;
             this.Email.Name = "Email";
             this.Email.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Email";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
             // 
             // Column3
             // 
@@ -276,7 +268,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }

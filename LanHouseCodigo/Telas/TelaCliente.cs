@@ -32,9 +32,7 @@ namespace LanHouseCodigo.Telas
 
                 cliente.Add(cd);
 
-                DgvC.DataSource = null;
-                DgvC.Refresh();
-                DgvC.DataSource = cliente;
+                DgvC.Rows.Add(cd.nomeC, cd.emailC, cd.teleC, cd.datNasC);
 
                 var file = File.AppendText("CadastroClienteLanHouse.docx");
                 file.WriteLine(tx_nomeC.Text + "|" + tx_emailC + "|" + tx_dtNasC.Text + "|" + tx_teleC.Text);
@@ -65,6 +63,11 @@ namespace LanHouseCodigo.Telas
         private void label4_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void DgvC_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

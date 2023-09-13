@@ -46,9 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\AlugarComputadores.cs" />
     <Compile Include="Classes\CadastroCliente.cs" />
     <Compile Include="Classes\CadastroFuncionario.cs" />
     <Compile Include="Classes\ValidacaoCPF.cs" />
+    <Compile Include="Telas\Computadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Computadores.Designer.cs">
+      <DependentUpon>Computadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +76,9 @@
     <Compile Include="Telas\TelaFuncionario.Designer.cs">
       <DependentUpon>TelaFuncionario.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas\Computadores.resx">
+      <DependentUpon>Computadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +116,44 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iamgem usuario_resized_resized_resized.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc 15 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc 15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc 15 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
