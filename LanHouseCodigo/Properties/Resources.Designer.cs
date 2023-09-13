@@ -63,6 +63,46 @@ namespace LanHouseCodigo.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Documento_A4_Branco_e_Lilás {
+            get {
+                object obj = ResourceManager.GetObject("Documento A4 Branco e Lilás", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Documento_A4_Branco_e_Lilás_resized {
+            get {
+                object obj = ResourceManager.GetObject("Documento A4 Branco e Lilás_resized", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Documento_A4_Branco_e_Lilás_resized1 {
+            get {
+                object obj = ResourceManager.GetObject("Documento A4 Branco e Lilás_resized1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Documento_A4_Branco_e_Lilás_resized2 {
+            get {
+                object obj = ResourceManager.GetObject("Documento A4 Branco e Lilás_resized2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iamgem_usuario_resized_resized_resized {
             get {
                 object obj = ResourceManager.GetObject("iamgem usuario_resized_resized_resized", resourceCulture);
@@ -103,9 +143,29 @@ namespace LanHouseCodigo.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pc_15__1__resized {
+            get {
+                object obj = ResourceManager.GetObject("pc 15 (1)_resized", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pc_15__1_1 {
             get {
                 object obj = ResourceManager.GetObject("pc 15 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pc_15_resized {
+            get {
+                object obj = ResourceManager.GetObject("pc 15_resized", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

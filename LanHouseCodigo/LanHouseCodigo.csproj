@@ -155,5 +155,17 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc 15 %281%29_resized.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documento A4 Branco e Lilás_resized2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc 15_resized.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documento A4 Branco e Lilás.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

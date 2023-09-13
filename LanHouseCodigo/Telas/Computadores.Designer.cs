@@ -34,23 +34,23 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tx_numPC = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lbl_valor = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.combo_horasUso = new System.Windows.Forms.ComboBox();
-            this.lbl_valor = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(985, 574);
+            this.button1.Location = new System.Drawing.Point(933, 589);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 68);
             this.button1.TabIndex = 0;
@@ -73,11 +73,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Stencil", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Stencil", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SlateBlue;
-            this.label2.Location = new System.Drawing.Point(462, 9);
+            this.label2.Location = new System.Drawing.Point(481, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(532, 39);
+            this.label2.Size = new System.Drawing.Size(602, 44);
             this.label2.TabIndex = 2;
             this.label2.Text = "Alugamento de Computadores";
             // 
@@ -115,21 +115,11 @@
             this.label5.Text = "Preços fixos!";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LanHouseCodigo.Properties.Resources.pc_15__1_1;
-            this.pictureBox1.Location = new System.Drawing.Point(364, 87);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(703, 398);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Stencil", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(507, 538);
+            this.label6.Location = new System.Drawing.Point(503, 599);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(137, 20);
             this.label6.TabIndex = 7;
@@ -138,7 +128,7 @@
             // tx_numPC
             // 
             this.tx_numPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_numPC.Location = new System.Drawing.Point(676, 530);
+            this.tx_numPC.Location = new System.Drawing.Point(676, 589);
             this.tx_numPC.Name = "tx_numPC";
             this.tx_numPC.Size = new System.Drawing.Size(143, 30);
             this.tx_numPC.TabIndex = 8;
@@ -157,11 +147,31 @@
             this.panel1.Size = new System.Drawing.Size(316, 708);
             this.panel1.TabIndex = 9;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label9.Location = new System.Drawing.Point(35, 598);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(140, 26);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Valor a pagar:";
+            // 
+            // lbl_valor
+            // 
+            this.lbl_valor.AutoSize = true;
+            this.lbl_valor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_valor.Location = new System.Drawing.Point(112, 438);
+            this.lbl_valor.Name = "lbl_valor";
+            this.lbl_valor.Size = new System.Drawing.Size(0, 16);
+            this.lbl_valor.TabIndex = 12;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Stencil", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(507, 599);
+            this.label7.Location = new System.Drawing.Point(507, 633);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(133, 20);
             this.label7.TabIndex = 10;
@@ -175,36 +185,26 @@
             "Menos de 1 hora",
             "1 hora de uso",
             "Mais de 2 horas"});
-            this.combo_horasUso.Location = new System.Drawing.Point(676, 595);
+            this.combo_horasUso.Location = new System.Drawing.Point(676, 633);
             this.combo_horasUso.Name = "combo_horasUso";
             this.combo_horasUso.Size = new System.Drawing.Size(143, 24);
             this.combo_horasUso.TabIndex = 11;
             // 
-            // lbl_valor
+            // pictureBox1
             // 
-            this.lbl_valor.AutoSize = true;
-            this.lbl_valor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_valor.Location = new System.Drawing.Point(112, 438);
-            this.lbl_valor.Name = "lbl_valor";
-            this.lbl_valor.Size = new System.Drawing.Size(0, 16);
-            this.lbl_valor.TabIndex = 12;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Location = new System.Drawing.Point(35, 598);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(140, 26);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "Valor a pagar:";
+            this.pictureBox1.Image = global::LanHouseCodigo.Properties.Resources.Documento_A4_Branco_e_Lilás_resized;
+            this.pictureBox1.Location = new System.Drawing.Point(550, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(509, 501);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Computadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1171, 683);
+            this.ClientSize = new System.Drawing.Size(1296, 683);
             this.Controls.Add(this.combo_horasUso);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
@@ -216,9 +216,9 @@
             this.Name = "Computadores";
             this.Text = "Computadores";
             this.Load += new System.EventHandler(this.Computadores_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
