@@ -123,6 +123,16 @@ namespace LanHouseCodigo.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iamgem_usuario_resized_resized_resized1 {
+            get {
+                object obj = ResourceManager.GetObject("iamgem usuario_resized_resized_resized1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagem_Lanhouse_resized__1_ {
             get {
                 object obj = ResourceManager.GetObject("imagem_Lanhouse_resized (1)", resourceCulture);
@@ -136,6 +146,16 @@ namespace LanHouseCodigo.Properties {
         internal static System.Drawing.Bitmap IMAGEMM_resized {
             get {
                 object obj = ResourceManager.GetObject("IMAGEMM_resized", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagemUsuarioFun_resized {
+            get {
+                object obj = ResourceManager.GetObject("imagemUsuarioFun_resized", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

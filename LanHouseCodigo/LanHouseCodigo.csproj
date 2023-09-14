@@ -173,5 +173,11 @@
   <ItemGroup>
     <None Include="Resources\IMAGEMM_resized.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iamgem usuario_resized_resized_resized1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagemUsuarioFun_resized.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
